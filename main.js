@@ -11,7 +11,7 @@ function findWords(dog_string){
   
     for(let i = 0; i < dog_names.length; i++)
     {
-        if(string.includes(i.lowercase))
+        if(string.match(dog_names))
         {
             console.log('Match ' + dog_names);
 
